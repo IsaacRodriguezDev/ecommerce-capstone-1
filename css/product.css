@@ -1,0 +1,27 @@
+body{
+    min-height: 100vh;
+}
+
+.card-img-top {
+   
+    height: 20vw;
+    object-fit: cover;
+    
+}
+.card1{
+
+display: flex;
+justify-content: space-around;
+padding-bottom: 20px;
+background-color: rgb(128, 126, 126);
+}
+.card2{
+    display: flex;
+    
+    justify-content: space-around;
+    background-color: rgb(128, 126, 126);
+
+}
+.navbar{
+    background-color: antiquewhite;
+}
