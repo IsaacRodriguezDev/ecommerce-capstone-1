@@ -10,7 +10,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/registration.css">
+    <link rel="stylesheet" href="/css/registration.css" />
   </head>
   <body>
     <header>
@@ -54,19 +54,72 @@
         </div>
       </nav>
     </header>
+    <div class="global-reg">
+      <h1>REGISTER</h1>
+      <form >
+       <div class="formRow1">
+      <label for="fname">First name:</label>
+      <input type="text" name="fname" id="fname" required/><br /><br />
+      <label for="lname">Last Name:</label>
+      <input type="text" name="lname" id="lname" required/>
+    </div><br /><br />
+      <div class="formRow2">
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="example@gmail.com"
+        required
+      />
+      <label for="pass">Password (8 characters minimum):</label>
+      <input type="password" id="pas" name="password" minlength="8"  required>
+      <label for="pass">Password confirmation:</label>
+      <input type="password" id="pas" name="password" minlength="8" required>
+      <label for="phone">Phone Number:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="123-345-6789"
+        minlength="9"
+        maxlength="12"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+        required
+      />
+    </div>
+      <div class="radio-btn">
+      <fieldset>
+        <legend>How did you hear from us?</legend>
+      <div>
+        <input type="radio" for="Friend" name="drone" value="Friend">
+        <label for="Friend">Friend</label>
+      </div>
+      <div>
+        <input type="radio" for="Social Media" name="drone" value="Social Media" >
+        <label for="Social Media">Social Media</label>
+      </div>
+
+    </fieldset>
+    
+  </div>
+  <div class="btn"><button>Submit</button></div>
+  
+    
+      
+    </form>
+    </div>
     <footer class="footer">
       <div class="footer-link">
         <div class="footer-link2">
           <h2>CARD STORE</h2>
-        <ul>
-          <li>New Release</li>
-          <li>Customer Service</li>
-          <li>Guide</li>
-        </ul>
+          <ul>
+            <li>New Release</li>
+            <li>Customer Service</li>
+            <li>Guide</li>
+          </ul>
+        </div>
       </div>
-      </div>
-    
-     
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

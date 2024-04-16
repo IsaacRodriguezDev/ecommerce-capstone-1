@@ -16,11 +16,51 @@ body{
     .navbar-brand:hover, .nav-link:hover{
         color: rgb(255, 217, 0) !important;
         }
+/* register */
+.global-reg h1{
+    text-align: center;
+    
+}
+.global-reg{
+  
+}
+.formRow1{
+    text-align: center;
+}
+.formRow2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.formRow2 label{
+    padding-left: 100px;
+}
+fieldset{
+    
+   max-width: 10%;
+    padding: 10px 10px;
+   border: 1px solid black;
+}
+.radio-btn{
+    display: flex;
+    padding-top: 2rem;
+   
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
 
-
+}
+button:hover{
+    display: flex;
+    background-color: rgb(255, 217, 0) ;
+}
+/* footer */
         .footer{
             display: flex;
         padding-top: 20px;
+        height: 47vh;
         }
         .footer-link{
           
