@@ -1,5 +1,5 @@
 body{
-   
+  
     background-color:rgb(207, 204, 204) ;
 }
 .container-fluid{
@@ -16,11 +16,42 @@ body{
     .navbar-brand:hover, .nav-link:hover{
         color: rgb(255, 217, 0) !important;
         }
-
-
+/* Login */
+.global-reg h1{
+    text-align: center;
+    
+}
+.global-reg{
+    display: flex;
+    justify-content: center;
+}
+.formRow2 {
+    display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+    
+}
+form{
+   
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button:hover{
+    display: flex;
+    background-color: rgb(255, 217, 0) ;
+}
+/* footer */
         .footer{
+           
             display: flex;
         padding-top: 20px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
         }
         .footer-link{
           

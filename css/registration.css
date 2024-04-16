@@ -24,13 +24,14 @@ body{
 .global-reg{
   
 }
+
 .formRow1{
     text-align: center;
 }
 .formRow2{
     display: flex;
     justify-content: space-evenly;
-    
+    padding-right: 150px;
 }
 .formRow2 label{
     padding-left: 100px;
@@ -58,9 +59,12 @@ button:hover{
 }
 /* footer */
         .footer{
+            
             display: flex;
         padding-top: 20px;
-        height: 47vh;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
         }
         .footer-link{
           
