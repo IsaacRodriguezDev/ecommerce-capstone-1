@@ -57,6 +57,18 @@ form{
 #state{
     width: 90px;
 }
+#ccName{
+    width: 250px;
+}
+#ccNumber{
+    width: 250px;
+}
+#cc-exp{
+    width: 100px;
+}
+#cc-ccv{
+    width: 100px;
+}
 .infoP{
     display: flex;
     
@@ -100,6 +112,16 @@ table, th,td{
 table{
     width: 300px;
 }
+.cc-div{
+    padding-top: 30px;
+    display: flex;
+    gap: 90px;
+}
+.cc-security{
+    display: flex;
+    gap: 90px;
+}
+
 button{
     width: 80px;
     height: 40px;
@@ -118,7 +140,7 @@ button:hover{
             display: flex;
         padding-top: 20px;
         width: 100%;
-        position: absolute;
+        
         bottom: 0;
         }
         .footer h2{

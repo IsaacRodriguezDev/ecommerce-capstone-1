@@ -10,14 +10,15 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/cart.css"/>
+    <link rel="stylesheet" href="/css/cart.css" />
   </head>
   <body>
-    
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><img width="100px" src="/images/Icon.png" alt="PokeMart Image"></a>
+          <a class="navbar-brand" href="../index.html"
+            ><img width="100px" src="/images/Icon.png" alt="PokeMart Image"
+          /></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -55,111 +56,153 @@
         </div>
       </nav>
     </header>
-   
+
     <div class="checkout">
-   <div class="billingInfo">
-    <h1>Billing Address</h1>
-    <form action="/pages/cart.html">
-      <div class="info-name">
-    <label for="fname">First name:</label>
-    <input type="text" name="fname" id="fname" maxlength="15" required/>
-    <label for="lname">Last Name:</label>
-    <input type="text" name="lname" id="lname" maxlength="25" required/>
-    <br>
-  </div>
-    <div class="info-email">
-    <label for="email">Email:</label> <br>
-    <input
-        type="email"
-        name="email"
-        id="email"
-        placeholder="example@gmail.com"
-        required
-      />
-    </div>
-      <br>
-    <label for="address">Address:</label><br>
-    <input type="text" name="address" id="address" placeholder="1234 Main st" required/>
-    <br>
-    <div class="infoP">
-    <div class="info-div1">
-    <label for="country">Country:</label><br>
-    <select name="country" id="country" required>
-      <option value="choose">choose..</option>
-      <option >United States</option>
-    </select>
-  </div>
-  <div class="info-div2">
-    <label for="state">state:</label><br>
-    <select name="state" id="state" required>
-      <option value="choose">choose..</option>
-      <option >Texas</option>
-    </select>
-  </div>
-  <div class="info-div3">
-    <label for="zip">Zip:</label><br>
-    <input type="text" name="zip" id="zip" required>
-  </div>
-</div>
-<div class="btn"><button>Submit</button></div>
-  </form>
-   </div>
-   <div class="table-div">
-    <h1>Your Cart</h1>
-    <div class="table-div2">
-      <table>
-        
-        <tr>
-          <th>Pokemon Cards</th>
-          <th>Description</th>
-          <th>Price</th>
-        </tr>
-     
-      <tbody>
-        <tr>
-          <td><b>CHARIZARD</b></td>
-        <td>Mint</td>
-          <td><b>$300</b></td>
-        </tr>
-        <tr>
-          <td><b>RAICHU</b></td>
-         <td>Worn</td>
-          <td><b>$90</b></td>
-        </tr>
-        <tr>
-          <td><b>BLASTOISE</b></td>
-         <td>Excellent</td>
-          <td><b>$230</b></td>
-        </tr>
-       
-         
-       
-    
-      </tbody>
-      </table>
-      <table>
-        <tr>
-          <th><b>TOTAL: $620</b></th>
-        </tr>
-        
-      </table>
-    </div>
-    </div>
+      <div class="billingInfo">
+        <h1>Billing Address</h1>
+        <form action="/pages/cart.html">
+          <div class="info-name">
+            <label for="fname">First name:</label>
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              maxlength="15"
+              required
+            />
+            <label for="lname">Last Name:</label>
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              maxlength="25"
+              required
+            />
+            <br />
+          </div>
+          <div class="info-email">
+            <label for="email">Email:</label> <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="example@gmail.com"
+              required
+            />
+          </div>
+          <br />
+          <label for="address">Address:</label><br />
+          <input
+            type="text"
+            name="address"
+            id="address"
+            placeholder="1234 Main st"
+            required
+          />
+          <br />
+          <div class="infoP">
+            <div class="info-div1">
+              <label for="country">Country:</label><br />
+              <select name="country" id="country" required>
+                <option value="choose">choose..</option>
+                <option>United States</option>
+              </select>
+            </div>
+            <div class="info-div2">
+              <label for="state">state:</label><br />
+              <select name="state" id="state" required>
+                <option value="choose">choose..</option>
+                <option>Texas</option>
+              </select>
+            </div>
+            <div class="info-div3">
+              <label for="zip">Zip:</label><br />
+              <input type="text" name="zip" id="zip" required />
+            </div>
+          </div>
+          <div class="payment-div">
+            <h3>Payment</h3>
+            <div>
+              <input type="radio" for="credit" name="drone" value="credit" />
+              <label for="credit">Credit</label>
+            </div>
+            <div>
+              <input type="radio" for="debit" name="drone" value="debit" />
+              <label for="debit">Debit</label>
+            </div>
+            <div class="cc-div">
+              <div class="cc-div2">
+                <label for="ccName">Name on card:</label> <br>
+                <input type="text" name="ccName" id="ccName" required />
+              </div>
+                <div class="cc-div3">
+                  <label for="ccNumber">Credit card number:</label><br>
+                  <input type="text" name="ccNumber" id="ccNumber" required />
+                </div>
+              
+            </div>
+            <div class="cc-security">
+            <div class="cc-security2">
+              <label for="cc-exp">Experation:</label><br>
+                  <input type="text" name="cc-exp" id="cc-exp" maxlength="7" required/>
+            </div>
+            <div class="cc-security3">
+              <label for="cc-ccv">CVV:</label><br>
+                  <input type="text" name="cc-ccv" id="cc-ccv" maxlength="3" required/>
+            </div>
+          </div>
+          </div>
+          <div class="btn"><button>Submit</button></div>
+        </form>
+      </div>
+      <div class="table-div">
+        <h1>Your Cart</h1>
+        <div class="table-div2">
+          <table>
+            <tr>
+              <th>Pokemon Cards</th>
+              <th>Description</th>
+              <th>Price</th>
+            </tr>
+
+            <tbody>
+              <tr>
+                <td><b>CHARIZARD</b></td>
+                <td>Mint</td>
+                <td><b>$300</b></td>
+              </tr>
+              <tr>
+                <td><b>RAICHU</b></td>
+                <td>Worn</td>
+                <td><b>$90</b></td>
+              </tr>
+              <tr>
+                <td><b>BLASTOISE</b></td>
+                <td>Excellent</td>
+                <td><b>$230</b></td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <th><b>TOTAL: $620</b></th>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
 
     <footer class="footer">
       <div class="footer-link">
         <div class="footer-link2">
           <h2>PokéMart</h2>
-        <ul>
-          <li>New Release</li>
-          <li>Customer Service</li>
-          <li>Guide</li>
-        </ul>
+          <ul>
+            <li>New Release</li>
+            <li>Customer Service</li>
+            <li>Guide</li>
+          </ul>
+        </div>
       </div>
-      </div>
-    
-     
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
