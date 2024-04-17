@@ -2,7 +2,7 @@
 ---
 
 ## I decided to create a website for selling pokemon cards.
-* web page images *
+*web page images*
 ![HomePage](https://github.com/IsaacRodriguezDev/ecommerce-capstone-1/assets/166642656/5d10dd10-2aa6-4699-a2ca-48a85294d1cf)
 
 ![Shop](https://github.com/IsaacRodriguezDev/ecommerce-capstone-1/assets/166642656/dac215ea-1ad5-4aae-b218-74304cf8a10d)
