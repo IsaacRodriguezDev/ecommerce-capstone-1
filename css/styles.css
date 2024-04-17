@@ -66,10 +66,14 @@ text-align: center;
  display: flex;
  
 }
+/* footer */
 .footer{
     display: flex;
 padding-top: 20px;
 
+}
+.footer h2{
+    color: rgb(255, 217, 0);
 }
 .footer-link{
   
