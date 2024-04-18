@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stylish&display=swap');
+*{
+    font-family: "Platypi", serif;
+}
+
 body{
    
     background-color:rgb(207, 204, 204) ;
@@ -6,7 +11,13 @@ body{
     background-color: rgb(0, 0, 0) ;
   
 }
- .navbar-brand, .nav-link{
+h1{
+    padding-top: 20px;
+}
+.icon-img{
+    color: rgb(255, 217, 0);
+}
+ .nav-link{
     color: white !important;
     }
 .navbar{
@@ -22,18 +33,30 @@ body{
     
 }
 
-
-.formRow1{
-    text-align: center;
-}
-.formRow2{
+.formRow1-2{
+    padding-top: 30px;
     display: flex;
-    justify-content: space-evenly;
-    padding-right: 150px;
+    justify-content: center;
+    gap:40px;
 }
-.formRow2 label{
-    padding-left: 100px;
+
+.formRow3{
+    padding-top: 30px;
+display: flex;
+justify-content: center;
+    gap: 40px;
 }
+
+.formRow4{
+    padding-top: 30px;
+    display: flex;
+justify-content: center;
+    gap: 40px;
+}
+.formRow4 span{
+    font-size: 12px;
+}
+
 fieldset{
     
    max-width: 10%;
@@ -42,12 +65,12 @@ fieldset{
 }
 .radio-btn{
     display: flex;
-    padding-top: 8rem;
+    padding-top: 3rem;
    
     justify-content: center;
 }
-.btn{
-    
+.b{
+    padding-top: 20px;
     display: flex;
     justify-content: center;
 

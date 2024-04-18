@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stylish&display=swap');
+*{
+    font-family: "Platypi", serif;
+}
+
 body{
    
     background-color:rgb(207, 204, 204) ;
 }
 
-.h1-head{
+h1{
    text-align: center;
    background-color: rgb(207, 204, 204);
    padding-top: 20px;
    
 }
-
+.icon-img{
+    color: rgb(255, 217, 0);
+}
 .card-img-top {
     
     
@@ -46,7 +53,7 @@ background-color: rgb(207, 204, 204);
     border: 1px solid  rgb(115, 180, 17);
     color: black;
 }
- .navbar-brand, .nav-link{
+  .nav-link{
     color: white !important;
     }
 .navbar{
