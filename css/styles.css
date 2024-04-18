@@ -13,6 +13,9 @@ padding-top: 20px;
 .icon-img{
     color: rgb(255, 217, 0);
 }
+.icon-img img{
+    width: 40px;
+}
 .carousel-item{
 
    height: 80vh;

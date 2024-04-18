@@ -21,7 +21,7 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand icon-img" href="../index.html">PokéMart<img width="40px" src="/images/guillermo-diaz-fs6zYhHyzvI-unsplash.jpg" alt="PokeMart Image"></a>
+          <a class="navbar-brand icon-img" href="../index.html">PokéMart<img  src="/images/guillermo-diaz-fs6zYhHyzvI-unsplash.jpg" alt="PokeMart Image"></a>
 
           <button
             class="navbar-toggler"
@@ -99,14 +99,14 @@
           <br />
           <div class="infoP">
             <div class="info-div1">
-              <label for="country">Country:</label><br />
-              <select name="country" required>
+              <label >Country:</label><br />
+              <select  required>
                 <option value="">choose..</option>
                 <option>United States</option>
               </select>
             </div>
             <div class="info-div2">
-              <label for="state">state:</label><br />
+              <label >state:</label><br />
               <select id="state" required>
                 <option value="">choose..</option>
                 <option value="texas">Texas</option>
@@ -122,21 +122,21 @@
             <div>
               <input
                 type="radio"
-                for="credit"
+               
                 name="paymentType"
                 value="credit"
                 required
               />
-              <label for="credit">Credit</label>
+              <label >Credit</label>
             </div>
             <div>
               <input
                 type="radio"
-                for="debit"
+               
                 name="paymentType"
                 value="debit"
               />
-              <label for="debit">Debit</label>
+              <label >Debit</label>
             </div>
             <div class="cc-div">
               <div class="cc-div2">
@@ -145,7 +145,7 @@
               </div>
               <div class="cc-div3">
                 <label for="ccNumber">Credit card number:</label><br />
-                <input type="number" id="ccNumber" required />
+                <input type="number" id="ccNumber" maxlength="16" required />
               </div>
             </div>
             <div class="cc-security">

@@ -14,6 +14,9 @@ body{
 .icon-img{
     color: rgb(255, 217, 0);
 }
+.icon-img img{
+    width: 40px;
+}
   .nav-link{
     color: white !important;
     }
